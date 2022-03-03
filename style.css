@@ -1,0 +1,99 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background: url('img/homeCover.png') no-repeat center center/cover;
+    margin: 0px;
+    padding: 0px;
+}
+/* NAVBAR */
+#navbar{ 
+    display: flex; 
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border: 2px solid black;
+    width: 100%;
+}
+#navbar::before{
+    content: "";
+    background-color: #fff;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.4;
+}
+#navbar img{
+     width: 80px;
+     height: 80px; 
+     padding: 43px 65px;
+     border: 2px solid black;
+}
+#navbar ul{
+    display: flex;
+    position: relative;
+    top: 48px;
+    left: 0px;
+    border: 2px solid black;
+    list-style: none;
+    padding: 0px;
+    z-index: 1;
+}
+#navbar ul li{ 
+    padding: 3px 8px;
+    margin: 2px 7px;
+}
+#navbar ul li a{
+    text-decoration: none; 
+    color: #000;  
+}
+#navbar ul li a:hover{
+    text-decoration:underline;  
+    color: #F23052; 
+}
+#navbar #pot1{
+    position: absolute;
+    width: 694px;
+    height: 680px;
+    left: 667px;
+    top: 0px;
+    /* background-color: #F23052; */
+}
+#navbar p{
+    position: relative;
+    top: 0px;
+    left: 538px;
+}
+
+/* HOME SECTION */
+#home{
+    border: 2px solid black;
+    width: 441px;
+    position: relative;
+    top: 236px;
+    left: 54px;
+}
+#home p{
+    font-size: 70px;
+    line-height: 82px;
+    color: #F23052;
+    margin-bottom: 23px;
+}
+#home .btn{
+    width: 168px;
+    height: 50px;
+    border-radius: 31px;
+    background: #F23052;
+    color: #fff;
+    cursor: pointer;
+}
+
+/* ABOUT PANDA POT SECTION */
+/* #aboutPandaPot{
+    border: 2px solid black;
+    position: relative;
+    top: 30px;
+} */
+
