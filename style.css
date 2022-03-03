@@ -6,6 +6,7 @@ body{
     background: url('img/homeCover.png') no-repeat center center/cover;
     margin: 0px;
     padding: 0px;
+    height: 756px;
 }
 /* NAVBAR */
 #navbar{ 
@@ -13,7 +14,7 @@ body{
     position: absolute;
     top: 0px;
     left: 0px;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     width: 100%;
 }
 #navbar::before{
@@ -29,14 +30,14 @@ body{
      width: 80px;
      height: 80px; 
      padding: 43px 65px;
-     border: 2px solid black;
+     /* border: 2px solid black; */
 }
 #navbar ul{
     display: flex;
     position: relative;
-    top: 48px;
+    top: 61px;
     left: 0px;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     list-style: none;
     padding: 0px;
     z-index: 1;
@@ -55,7 +56,7 @@ body{
 }
 #navbar #pot1{
     position: absolute;
-    width: 694px;
+    width: 552px;
     height: 680px;
     left: 667px;
     top: 0px;
@@ -63,13 +64,13 @@ body{
 }
 #navbar p{
     position: relative;
-    top: 0px;
-    left: 538px;
+    top: 69px;
+    left: 487px;
 }
 
 /* HOME SECTION */
 #home{
-    border: 2px solid black;
+    /* border: 2px solid black; */
     width: 441px;
     position: relative;
     top: 236px;
