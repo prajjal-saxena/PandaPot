@@ -91,10 +91,25 @@ body{
     cursor: pointer;
 }
 
+@media only screen and (max-width: 600px){
+    
+}
+
 /* ABOUT PANDA POT SECTION */
-/* #aboutPandaPot{
+#aboutPandaPot{
     border: 2px solid black;
     position: relative;
-    top: 30px;
-} */
-
+    top: 492px;
+}
+#aboutPandaPot h5{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 58px;
+    margin-top: 21px;
+}
+div#aboutPot-content {
+    display: flex;
+}
+div#aboutPot-content div:nth-child(2){
+    align-self: center;
+} 
