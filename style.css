@@ -97,7 +97,7 @@ body{
 
 /* ABOUT PANDA POT SECTION */
 #aboutPandaPot{
-    border: 2px solid black;
+    /* border: 2px solid black; */
     position: relative;
     top: 492px;
 }
@@ -110,6 +110,97 @@ body{
 div#aboutPot-content {
     display: flex;
 }
+
 div#aboutPot-content div:nth-child(2){
     align-self: center;
+    background: linear-gradient(270deg, #F2D19E -15.59%, #F6E5C9 89.92%);
+    position: absolute;
+    width: 1052px;
+    height: 300px;
+    left: 295px;
+    z-index: -1;
 } 
+.aboutPot-content-para{
+    width: 472px;
+    position: absolute;
+    right: 149px;
+    top: 74px;
+}
+
+/* OUR FOOD MENU */
+#our-food-menu{
+    /* border: 2px solid black; */
+    position: relative;
+    top: 521px;
+}
+#our-food-menu h5{
+    text-align: center;
+    font-size: 49px;
+}
+#our-food-menu-items{
+    /* border: 2px solid black; */
+    display: flex;
+}
+.our-food{
+    /* border: 2px solid black; */
+    padding: 23px 37px;
+    margin: 3px 2px;
+    align-self: center;
+    border-radius: 12px;
+    background: #e1e1e3;
+}
+.our-food p{
+    text-align: center;
+    border: 2px solid black;
+    width: 176px;
+    height: 126px;
+    padding-top: 50px;
+    background: #F23052;
+    color: #fff;
+    border-bottom-left-radius: 64px;
+}
+.our-food-item-para{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.our-food img{
+    width: 254px;
+    height: 198px;
+    display: block;
+    margin: auto;
+    position: relative;
+    top: 53px;
+}
+
+/* OUR FOOD ITEMS */
+#our-food-items{
+    position: relative;
+    top: 538px;
+    /* border: 2px solid black; */
+    margin-top: 21px;
+}
+#our-food-items h2{
+    text-align: center;
+    font-size: 18px;
+    color: #fff;
+    padding-top: 26px;
+}
+#our-food-items h3{
+    text-align: center;
+    font-size: 42px;
+    
+}
+#our-food-items p{
+    color: #fff;
+}
+#one-food{
+    display: flex;
+    /* border: 2px solid black; */
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+}
+#one-food li{
+    list-style: none;
+}
