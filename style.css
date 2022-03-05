@@ -204,3 +204,25 @@ div#aboutPot-content div:nth-child(2){
 #one-food li{
     list-style: none;
 }
+
+/* OUR FOOD GALLERY */
+#food-gallery{
+    /* border: 2px solid black; */
+    display: flex;
+}
+.food-gallery-img{
+    /* border: 2px solid black; */
+}
+#our-food-gallery{
+    position: relative;
+    top: 576px;
+}
+.img-one{
+    margin-top: 3px;
+    margin-left: 8px;
+}
+.img-second{
+    margin-top: 3px;
+    margin-left: 8px;  
+    margin-bottom: 3px; 
+}
